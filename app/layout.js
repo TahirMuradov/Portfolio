@@ -6,6 +6,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss=true;
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import Backtotop from "@/components/BackToTop/Backtotop";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,6 +17,37 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const updateScrollCompletion = (selectorName) => {
+    const currentProgress = window.scrollY;
+    const scrollHeight = document.body.scrollHeight - window.innerHeight;
+   
+    if(scrollHeight) {
+      
+  const scrollValue= Number((currentProgress / scrollHeight).toFixed(2)) * 100
+
+  if (scrollValue>30){
+   
+
+        window.addEventListener("scroll",()=>{
+            document.querySelector(selectorName).classList.add(style.bg_header_color)
+            document.querySelector(selectorName).classList.remove(style.bg_Header_onscroll)
+           
+         });
+
+  }else{    
+        window.addEventListener("scroll",()=>{
+            document.querySelector(selectorName).classList.add(style.bg_Header_onscroll)
+            document.querySelector(selectorName).classList.remove(style.bg_header_color)
+
+         });
+    
+  }
+      
+    }
+    window.addEventListener('scroll', updateScrollCompletion);
+  }
+
+
   return (
     <html lang="en">
    
@@ -23,6 +55,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <Header/>      
         {children}
+        <Backtotop/>
      <Footer/>
         
         </body>

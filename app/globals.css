@@ -2,6 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.tahir{
-  background-color: red;
-}
+@import url("../components/Main/anime.css");

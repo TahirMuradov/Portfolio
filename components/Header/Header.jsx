@@ -8,25 +8,26 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   let nav =useRef(null)
-useEffect(()=>{
 
-    nav.current.classList.add("Tahir")
-},[])
-
-
-useEffect(()=>{
-
+ 
+  
+    
+  useEffect(()=>{
     window.addEventListener("scroll",()=>{
-        document.querySelector("header").classList.add(style.bg_header_color)
-     });
+        updateScrollCompletion("header")
+    })
 },[])
+
+
+
+
 const navBar_Toggle=()=>{
 nav.current.classList.toggle('hidden')
 
 }
   return (
     <React.Fragment>
-    <header  className={`bg-transparent fixed w-full `}>
+    <header style={{transition:"1s"}}  className={`bg-transparent fixed w-full transition-colors z-50`}>
 <div className="container mx-auto">
     <div className="flex justify-between ">
         <div className="social-networks col-4">
