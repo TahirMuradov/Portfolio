@@ -9,14 +9,41 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
   let nav =useRef(null)
 
- 
+    const updateScrollCompletion = () => {
+        const currentProgress = window.scrollY;
+        const scrollHeight = document.body.scrollHeight - window.innerHeight;
+       
+        if(scrollHeight) {
+          
+      const scrollValue= Number((currentProgress / scrollHeight).toFixed(2)) * 100
+
+      if (scrollValue>30){
+       
+
+            window.addEventListener("scroll",()=>{
+                document.querySelector("header").classList.add(style.bg_header_color)
+                document.querySelector("header").classList.remove(style.bg_Header_onscroll)
+               
+             });
+   
+      }else{    
+            window.addEventListener("scroll",()=>{
+                document.querySelector("header").classList.add(style.bg_Header_onscroll)
+                document.querySelector("header").classList.remove(style.bg_header_color)
+
+             });
+        
+      }
+          
+        }
+      }
+  useEffect(()=>{
+
+      window.addEventListener('scroll', updateScrollCompletion);
+  },[])
   
     
-  useEffect(()=>{
-    window.addEventListener("scroll",()=>{
-        updateScrollCompletion("header")
-    })
-},[])
+
 
 
 

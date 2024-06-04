@@ -5,11 +5,43 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react'
 
 const Backtotop = () => {
-    useEffect(()=>{
-        window.addEventListener("scroll",()=>{
-            updateScrollCompletion("#bactotop")
-        })
-    },[])
+    
+    const updateScrollCompletion = () => {
+        const currentProgress = window.scrollY;
+        const scrollHeight = document.body.scrollHeight - window.innerHeight;
+       
+        if(scrollHeight) {
+          
+      const scrollValue= Number((currentProgress / scrollHeight).toFixed(2)) * 100
+
+      if (scrollValue>30){
+       
+
+            window.addEventListener("scroll",()=>{
+                
+                document.querySelector("#bactotop").classList.remove("top-[-100%]")
+                document.querySelector("#bactotop").classList.remove("hidden")
+                document.querySelector("#bactotop").classList.add("bottom-0")
+               
+             });
+   
+      }else{    
+            window.addEventListener("scroll",()=>{
+                document.querySelector("#bactotop").classList.remove("bottom-0")
+                document.querySelector("#bactotop").classList.add("top-[-100%]")
+                document.querySelector("#bactotop").classList.add("hidden")
+                
+
+             });
+        
+      }
+          
+        }
+      }
+  useEffect(()=>{
+
+      window.addEventListener('scroll', updateScrollCompletion);
+  },[])
     function ToTOp() {
        
         window.scrollTo({ top: 0, behavior: 'smooth' });

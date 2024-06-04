@@ -3,3 +3,26 @@
 @tailwind utilities;
 
 @import url("../components/Main/anime.css");
+:root{
+  --colorBg:linear-gradient(to right, #17D396, #07F7F7)
+}
+.img_box{
+  position: relative;
+}
+.img_box img{
+  position: absolute;
+  left: -50px;
+  bottom: -20px;
+  z-index: 499;
+}
+.img_box:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border: solid 7px #00d7bb;
+  z-index: 498;
+
+}
