@@ -1,22 +1,36 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import image1 from "../../public/img/1695206209137.jpg"
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 
 const AboutMe = () => {
+
   return (
     <section id='aboutMe' className='w-full'style={{backgroundColor:"#22252C"}}>
         <div className="w-[80%] mx-auto py-20 ">
 
-        <div className="grid lg:grid-cols-2 md:grid-rows-2 lg:gap-4 md:after:hidden lg:after:block ">
-<div className="img_box">
-<Image width={365} height={385} src={image1} />
+        <div className="grid lg:grid-cols-2 grid-rows-2 lg:gap-4 ">
+
+
+<div className="img_box after:hidden lg:after:block">
+<Image className='static lg:absolute' width={365} height={385} src={image1} />
 </div>
+
 <div>
     <div className="title">
 
-    <h2 style={{color:"#06F6F1",fontSize:"45px"}}>About Me</h2>
+    <h2>About Me</h2>
     </div>
-    <p className='py-6 text-white text-[14.5px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia veritatis enim reiciendis, omnis architecto dicta aperiam tenetur. Laborum doloribus itaque incidunt vel, inventore reprehenderit quod consequuntur nulla nostrum atque mollitia.</p>
+    <p className='py-6 text-white text-[14.5px]'>
+   2018-ci ildə V.Mirzəliyev adına 281 nömrəli tam orta məktəbi bitirib, Azərbaycan Texniki Universitetinin Kompüter Elmləri
+ ixtisasına qəbul olmuşam. 2022-ci ildə Kompüter Elmləri üzrə Bakalavr təhsilimi başa
+ vurduqdan sonra,.Həmin universitetin Kompüter Mühəndisliyi üzrə Magistratura proqramına qəbul oldum. Mən həmçinin Compar
+ Academy-də Full-Stack Web Developer təhsili almışam.WebConsole studioda backend developer təcrübəçi kimi 1 ay fəaliyyət göstərərək zmt.az lahiyəsinin backendini tamamlayaraq təhvil vermişəm
+    </p>
 <ul>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>Name</span>Muradov Tahir</li>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>DATE OF BIRTH</span>17 Aug 2001</li>
@@ -27,6 +41,9 @@ const AboutMe = () => {
 
 </ul>
 </div>
+        <div className='flex justify-center items-center lg:col-span-2'>
+        <a href={"/pdfs/MTahirCV.pdf"} className='customBtn' download={"cv"}><FontAwesomeIcon icon={faDownload} /> Download Cv</a>
+        </div>
         </div>
         </div>
     </section>

@@ -7,8 +7,7 @@ config.autoAddCss=true;
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import Backtotop from "@/components/BackToTop/Backtotop";
-
-
+import "../components/Education/education.scss"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -28,7 +27,7 @@ export default function RootLayout({ children }) {
       <Header/>      
         {children}
         <Backtotop/>
-     <Footer/>
+    
         
         </body>
     </html>

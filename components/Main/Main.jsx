@@ -30,10 +30,10 @@ const Main = () => {
 <div className='w-full'>
   <div  className='text-white ps-5'> 
 
-<h1  className='text-[120px]'>Hello</h1>
-<h5 className='text-[84px]'> My Name Is Tahir Muradov <br />
+<h1  className='text-[80px] lg:text-[120px]'>Hello</h1>
+<h5 className='text-[35px] lg:text-[84px]'> My Name Is Tahir Muradov <br />
 </h5>
-<p className='text-[25px]'>
+<p className='text-[10px] lg:text-[25px]'>
   Full Stack Web Developer (c#)
   </p> 
   </div>

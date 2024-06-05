@@ -54,7 +54,7 @@ nav.current.classList.toggle('hidden')
 }
   return (
     <React.Fragment>
-    <header style={{transition:"1s"}}  className={`bg-transparent fixed w-full transition-colors z-50`}>
+    <header style={{transition:"1s"}}  className={`bg-transparent fixed w-full transition-colors z-[999]`}>
 <div className="container mx-auto">
     <div className="flex justify-between ">
         <div className="social-networks col-4">
