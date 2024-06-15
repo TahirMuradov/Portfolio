@@ -8,12 +8,12 @@ const Skills = () => {
     <h2>Skills</h2>
 </div>
 <div className="skills_content w-[80%] mx-auto bg-[#313741]">
-<div className="grid grid-cols-2 gap-2">
+<div className="grid lg:grid-cols-2 gap-2">
 <div className="front text-center">
 <h2>Front</h2>
 
-<p className='text-white'>
-    <ul>
+<div className='text-white'>
+    <ul className='list-inside'>
         <li>Html Css (SCSS,SASS)</li>
         <li>BOOTSTRAP, TAIlWINDCSS </li>
         <li> JAVASCRIPT</li>
@@ -29,20 +29,37 @@ const Skills = () => {
 
 
 
-</p>
+</div>
 </div>
 <div className="backend grid-cols-2 gap-2 text-center ">
 <h2>Backend</h2>
-<p className='text-white'>
+<div className='text-white'>
 
-<ul>
- <li>c#</li>
- <li>asp.net MVC</li>
- <li>RestFullApi(swaggerUI)</li>
- <li>MsSql</li>
- <li> ORM(ENTITY FRAMEWORK)</li>
+<ul className='list-inside'>
+ <li> <p>
+  c#
+  </p>
+  </li>
+ <li> <p>
+  asp.net MVC
+  </p>
+  </li>
+ <li> <p>
+  RestFullApi(swaggerUI)
+  </p>
+  </li>
+ <li> <p>
+  MsSql
+  </p>
+  </li>
+ <li>
+   <p>
+    
+   ORM(ENTITY FRAMEWORK)
+  </p>
+   </li>
 </ul>
-</p>
+</div>
 </div>
 </div>
 </div>

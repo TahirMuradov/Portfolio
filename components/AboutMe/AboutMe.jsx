@@ -25,12 +25,12 @@ const AboutMe = () => {
 
     <h2>About Me</h2>
     </div>
-    <p className='py-6 text-white text-[14.5px]'>
+    <span className='py-6 text-white text-[14.5px]'>
    2018-ci ildə V.Mirzəliyev adına 281 nömrəli tam orta məktəbi bitirib, Azərbaycan Texniki Universitetinin Kompüter Elmləri
  ixtisasına qəbul olmuşam. 2022-ci ildə Kompüter Elmləri üzrə Bakalavr təhsilimi başa
  vurduqdan sonra,.Həmin universitetin Kompüter Mühəndisliyi üzrə Magistratura proqramına qəbul oldum. Mən həmçinin Compar
  Academy-də Full-Stack Web Developer təhsili almışam.WebConsole studioda backend developer təcrübəçi kimi 1 ay fəaliyyət göstərərək zmt.az lahiyəsinin backendini tamamlayaraq təhvil vermişəm
-    </p>
+    </span>
 <ul>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>Name</span>Muradov Tahir</li>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>DATE OF BIRTH</span>17 Aug 2001</li>

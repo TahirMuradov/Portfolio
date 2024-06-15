@@ -5,7 +5,7 @@ import React from 'react'
 const Workexperience = () => {
   return (
     <>
-    <section id="education" className='bg-[#22252C] w-full h-auto'>
+    <section id="workeducation" className='bg-[#22252C] w-full h-auto'>
 
   <div className="edu w-[80%] mx-auto py-28">
 <div id='title' className="w-full text-center">
@@ -19,7 +19,7 @@ const Workexperience = () => {
 <FontAwesomeIcon icon={faBuildingColumns} />
 </div>
         </div>
-<div className="grid lg:grid-cols-5 pb-6">
+<div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>Karl Fashion</h2>
  
@@ -30,12 +30,16 @@ const Workexperience = () => {
 </div>
 </div>
 <div className="content lg:col-span-2 text-white font-serif text-[14px]">
-    <p>
-      MVC,n-tier architecture,addtocart,orderpdfgenerator <br /> identityToken,confirmEmail,forgoutPassword,multiLaunguage,orderpdfSendEmail
+    <p className='w-1/2'>
+      MVC,n-tier architecture,addtocart
+      ,orderpdfgenerator
+       identityToken,confirmEmail,
+      forgoutPassword,multiLaunguage
+      ,orderpdfSendEmail
         </p> 
 </div>
 </div>
-<div className="grid lg:grid-cols-5 pb-6">
+<div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>Karl-Fashion Api</h2>
 
@@ -45,11 +49,17 @@ const Workexperience = () => {
     <div className=''></div>
 </div>
 </div>
-<div className="content lg:col-span-2 text-white text-[14px]">
-accessToken,refreshToken,Jwt token,Hashing,FluentValidation,multiLaunguage
+<div className="content lg:col-span-2 text-white text-[14px]"> 
+  <p className='w-1/2'>
+
+accessToken,refreshToken,
+Jwt token,Hashing,
+FluentValidation,
+multiLaunguage
+  </p>
 </div>
 </div>
-<div className="grid lg:grid-cols-5 pb-6">
+<div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>Aztu-Events</h2>
     
@@ -60,12 +70,14 @@ accessToken,refreshToken,Jwt token,Hashing,FluentValidation,multiLaunguage
 </div>
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
-<p>
-      MVC,n-tier architecture,identityToken,confirmEmail,forgotPassword,multiLaunguage
+<p className='w-1/2'>
+      MVC,n-tier architecture,
+      identityToken,confirmEmail,
+      forgotPassword,multiLaunguage
         </p> 
 </div>
 </div>
-<div className="grid lg:grid-cols-5 pb-6">
+<div className="grid lg:grid-cols-5 grid-rows-2  pb-6">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>ZMT zmt.az</h2>
     
@@ -76,8 +88,10 @@ accessToken,refreshToken,Jwt token,Hashing,FluentValidation,multiLaunguage
 </div>
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
-<p>
-      MVC,n-tier architecture,identityToken,confirmEmail,forgotPassword
+<p className='w-1/2'>
+      MVC,n-tier architecture,
+      identityToken,confirmEmail,
+      forgotPassword
         </p> 
 </div>
 </div>

@@ -33,9 +33,9 @@ const Main = () => {
 <h1  className='text-[80px] lg:text-[120px]'>Hello</h1>
 <h5 className='text-[35px] lg:text-[84px]'> My Name Is Tahir Muradov <br />
 </h5>
-<p className='text-[10px] lg:text-[25px]'>
+<span className='text-[10px] lg:text-[25px]'>
   Full Stack Web Developer (c#)
-  </p> 
+  </span> 
   </div>
 </div>
 </div>
