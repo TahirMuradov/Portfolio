@@ -74,12 +74,34 @@ nav.current.classList.toggle('hidden')
 <div className='w-full h-full flex items-center justify-center'>
 
     <ul className='text-white'>
-        <li className='py-5'>Home</li>
-        <li className='py-5'>About</li>
-        <li className='py-5'>Education</li>
-        <li className='py-5'>PROFESSIONAL SKILLS</li>
-        <li className='py-5'>WORK EXPERIENCE</li>
-        <li className='py-5'>Contact Me</li>
+        <li className='py-5'> <a href="#">
+          Home
+          </a>
+          </li>
+        <li className='py-5'><a href="#aboutMe">
+          About
+          </a> 
+          </li>
+        <li className='py-5'>
+          <a href="#education">
+          Education
+          </a>
+          </li>
+        <li className='py-5'>
+          <a href="#skills">
+
+           PROFESSIONAL SKILLS
+          </a>
+
+        </li>
+        <li className='py-5'>
+<a href="#workeducation">
+
+
+          WORK EXPERIENCE
+</a>
+          </li>
+  
     </ul>
 
 </div>
