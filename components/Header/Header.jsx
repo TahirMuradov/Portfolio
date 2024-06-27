@@ -59,8 +59,16 @@ nav.current.classList.toggle('hidden')
     <div className="flex justify-between ">
         <div className="social-networks col-4">
             <ul className='flex items-center'>
-            <li> <FontAwesomeIcon icon={faLinkedin} className='p-4 text-[23px] text-white' /></li>
-                <li> <FontAwesomeIcon icon={faGithub} className='p-4 text-[23px] text-white'/></li>
+            <li> 
+              <a href="https://www.linkedin.com/in/tahir-muradov-94bb98271/">
+                <FontAwesomeIcon icon={faLinkedin} className='p-4 text-[23px] text-white' />
+                </a> 
+                </li>
+                <li>
+                  <a href="https://github.com/TahirMuradov">
+                   <FontAwesomeIcon icon={faGithub} className='p-4 text-[23px] text-white'/>
+                  </a>
+                   </li>
             </ul>
         </div>
       <div className="navbar_icon cursor-pointer" onClick={()=>navBar_Toggle()}>
