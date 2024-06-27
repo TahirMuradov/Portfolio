@@ -42,7 +42,7 @@ const AboutMe = () => {
 </ul>
 </div>
         <div className='flex justify-center items-center lg:col-span-2'>
-        <a href={"/pdfs/MTahirCV.pdf"} className='customBtn' download={"cv"}><FontAwesomeIcon icon={faDownload} /> Download Cv</a>
+        <a href={"/img/M.TahirCV.png"} className='customBtn' download={"cv"}><FontAwesomeIcon icon={faDownload} /> Download Cv</a>
         </div>
         </div>
         </div>
