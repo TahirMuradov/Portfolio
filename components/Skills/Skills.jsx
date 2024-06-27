@@ -17,7 +17,10 @@ const Skills = () => {
         <li>Html Css (SCSS,SASS)</li>
         <li>BOOTSTRAP, TAIlWINDCSS </li>
         <li> JAVASCRIPT</li>
-        <li> REACTJS  (COMPONENT,HOOK,ROUTER,REDUX,REDUX TOOLKIT)</li>
+        <li> REACTJS  (HOOK,ROUTER,
+          <br />
+          REDUX,REDUX TOOLKIT)
+          </li>
         <li> NextJs</li>
         <li> GIT,GITHUB</li>
     </ul>
@@ -44,7 +47,8 @@ const Skills = () => {
   asp.net MVC
   </p>
   </li>
- <li> <p>
+ <li>
+   <p>
   RestFullApi(swaggerUI)
   </p>
   </li>
