@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import image1 from "../../public/img/1695206209137.jpg"
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
@@ -42,7 +42,7 @@ const AboutMe = () => {
 </ul>
 </div>
         <div className='flex justify-center items-center lg:col-span-2'>
-        <a href={"/img/M.TahirCV.png"} className='customBtn' download={"cv"}><FontAwesomeIcon icon={faDownload} /> Download Cv</a>
+        <a href={"/PDFs/TahirMuradovNetDeveloperEn.pdf"}  target="_blank" rel="noopener noreferrer" className='customBtn' download={"cv"}><FontAwesomeIcon icon={faDownload} /> Download Cv</a>
         </div>
         </div>
         </div>

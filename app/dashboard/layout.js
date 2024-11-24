@@ -3,13 +3,16 @@ import React from 'react'
 const layout = ({children }) => {
 
   return (
-
-    <>
-      {
-        
-      children
-      }
-    </>
+    <html lang="en">
+      <body className={`antialiased`}> 
+     
+      { 
+         children
+     }
+   </body>
+    </html>
+  
+  
     
   
       
