@@ -26,11 +26,14 @@ const AboutMe = () => {
     <h2>About Me</h2>
     </div>
     <span className='py-6 text-white text-[14.5px]'>
-   2018-ci ildə V.Mirzəliyev adına 281 nömrəli tam orta məktəbi bitirib, Azərbaycan Texniki Universitetinin Kompüter Elmləri
- ixtisasına qəbul olmuşam. 2022-ci ildə Kompüter Elmləri üzrə Bakalavr təhsilimi başa
- vurduqdan sonra,.Həmin universitetin Kompüter Mühəndisliyi üzrə Magistratura proqramına qəbul oldum. Mən həmçinin Compar
- Academy-də Full-Stack Web Developer təhsili almışam.WebConsole studioda backend developer təcrübəçi kimi 1 ay fəaliyyət göstərərək zmt.az lahiyəsinin backendini tamamlayaraq təhvil vermişəm
-    </span>
+    In 2018, I graduated from secondary school and was admitted to the Computer Science program at Azerbaijan
+ Technical University. In 2022, I pursued further education by enrolling in the Master's program in Computer
+ Engineering at the same university.
+ Additionally, I completed a Full-Stack Web Development program at Compar Academy, where I developed strong
+ programming and problem-solving skills. After graduating from the academy, I worked as a C# backend
+ developer intern at WebConsole Studio, further enhancing my technical expertise and understanding of software
+ development processes.
+ </span>
 <ul>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>Name</span>Muradov Tahir</li>
     <li style={{color:"white",fontSize:"17.5px"}}><span style={{color:"#00d7bb",fontWeight:"700",textTransform:"uppercase"}} className='px-4'>DATE OF BIRTH</span>17 Aug 2001</li>
