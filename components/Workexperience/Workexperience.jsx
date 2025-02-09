@@ -9,7 +9,7 @@ const Workexperience = () => {
 
   <div className="edu w-[80%] mx-auto py-28">
 <div id='title' className="w-full text-center">
-    <h2>Lahİyələr</h2>
+    <h2>Projects</h2>
 </div>
 <div className="content w-full h-auto">
 <div className="cd-timeline w-full h-auto">
@@ -19,6 +19,42 @@ const Workexperience = () => {
 <FontAwesomeIcon icon={faBuildingColumns} />
 </div>
         </div>
+        <div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
+<div className="title lg:col-span-2 lg:text-end">
+    <h2 className='text-[20px] block'> Shoes Ecommerce </h2>
+    
+ 
+</div>
+<div className="dot lg:col-span-1 hidden lg:block text-center relative">
+<div className='big'>
+    <div className=''></div>
+</div>
+</div>
+<div className="content lg:col-span-2 text-white font-serif text-[14px]">
+    <p className='w-1/2'>
+   <a href="https://shoes-next-js.vercel.app/" target="_blank">https://shoes-next-js.vercel.app/</a>  <br />
+    NextJs 14,Next-Intl,NextAuth,TypeScript,Tailwindcss,MaterialU,Redux Toolkit
+        </p> 
+</div>
+</div>
+<div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
+<div className="title lg:col-span-2 lg:text-end">
+    <h2 className='text-[20px] block'> Shoes Ecommerce Api  </h2>
+    
+ 
+</div>
+<div className="dot lg:col-span-1 hidden lg:block text-center relative">
+<div className='big'>
+    <div className=''></div>
+</div>
+</div>
+<div className="content lg:col-span-2 text-white font-serif text-[14px]">
+    <p className='w-1/2'>
+    API, N-Tier architecture, supported multilanguage validate error
+ messages with Fluent Validation , JWTToken, Authorize and Authenticate
+        </p> 
+</div>
+</div>
 <div className="grid lg:grid-cols-5 grid-rows-2 pb-6">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>Karl Fashion</h2>
@@ -31,11 +67,11 @@ const Workexperience = () => {
 </div>
 <div className="content lg:col-span-2 text-white font-serif text-[14px]">
     <p className='w-1/2'>
-      MVC,n-tier architecture,addtocart
-      ,orderpdfgenerator
-       identityToken,confirmEmail,
-      forgoutPassword,multiLaunguage
-      ,orderpdfSendEmail
+      MVC, N-tier architecture,addtocart
+      , Orderpdf Generator
+       IdentityToken, Confirm Email,
+      Forgot Password,Multilanguage
+      ,Orderpdf Send Email
         </p> 
 </div>
 </div>
@@ -52,10 +88,10 @@ const Workexperience = () => {
 <div className="content lg:col-span-2 text-white text-[14px]"> 
   <p className='w-1/2'>
 
-accessToken,refreshToken,
-Jwt token,Hashing,
+AccessToken, RefreshToken,
+Jwt token, Hashing,
 FluentValidation,
-multiLaunguage
+Multilanguage
   </p>
 </div>
 </div>
@@ -71,9 +107,9 @@ multiLaunguage
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
 <p className='w-1/2'>
-      MVC,n-tier architecture,
-      identityToken,confirmEmail,
-      forgotPassword,multiLaunguage
+      MVC, N-tier architecture,
+      IdentityToken,ConfirmEmail,
+      Forgot Password, Multilanguage
         </p> 
 </div>
 </div>
@@ -89,9 +125,9 @@ multiLaunguage
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
 <p className='w-1/2'>
-      MVC,n-tier architecture,
-      identityToken,confirmEmail,
-      forgotPassword
+      MVC,N-tier architecture,
+      IdentityToken,Confirm Email,
+      Forgot Password
         </p> 
 </div>
 </div>

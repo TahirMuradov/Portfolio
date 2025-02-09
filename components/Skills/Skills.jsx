@@ -10,7 +10,7 @@ const Skills = () => {
 <div className="skills_content w-[80%] mx-auto bg-[#313741]">
 <div className="grid lg:grid-cols-2 gap-2">
 <div className="front text-center">
-<h2>Front</h2>
+<h2>Frontend</h2>
 
 <div className='text-white'>
     <ul className='list-inside'>
@@ -44,12 +44,12 @@ const Skills = () => {
   </p>
   </li>
  <li> <p>
-  asp.net MVC
+  asp.net core MVC
   </p>
   </li>
  <li>
    <p>
-  RestFullApi(swaggerUI)
+  RestFullApi
   </p>
   </li>
  <li> <p>

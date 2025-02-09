@@ -11,7 +11,7 @@ const Education = () => {
 
   <div className="edu w-[80%] mx-auto py-28">
 <div id='title' className="w-full text-center">
-    <h2>Təhsİl</h2>
+    <h2>Educaton</h2>
 </div>
 <div className="content w-full h-auto">
 <div className="cd-timeline w-full h-auto">
@@ -23,7 +23,7 @@ const Education = () => {
         </div>
 <div className="grid lg:grid-cols-5">
 <div className="title lg:col-span-2 lg:text-end">
-    <h2 className='text-[20px] block'>Bakalavr</h2>
+    <h2 className='text-[20px] block'> Bachelor's degree </h2>
     <h2 className='text-[10px]'>2018-2022</h2>
 </div>
 <div className="dot lg:col-span-1 hidden lg:block text-center relative">
@@ -32,12 +32,12 @@ const Education = () => {
 </div>
 </div>
 <div className="content lg:col-span-2 text-white font-serif text-[14px]">
-  Kompüter Elmləri
+Computer science
 </div>
 </div>
 <div className="grid lg:grid-cols-5">
 <div className="title lg:col-span-2 lg:text-end">
-    <h2 className='text-[20px] block'>Magistr</h2>
+    <h2 className='text-[20px] block'>Master's degree</h2>
     <h2 className='text-[10px]'>2022-2024</h2>
 </div>
 <div className="dot lg:col-span-1 hidden lg:block text-center relative">
@@ -46,7 +46,7 @@ const Education = () => {
 </div>
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
-Kompüter Mühəndisliyi
+Computer Engineering
 </div>
 </div>
 <div className="grid lg:grid-cols-5">
@@ -60,7 +60,7 @@ Kompüter Mühəndisliyi
 </div>
 </div>
 <div className="content lg:col-span-2 text-white text-[14px]">
-Full Stack Web Developer
+Full Stack Web Development
 </div>
 </div>
     </div>
