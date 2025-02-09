@@ -23,7 +23,7 @@ const Education = () => {
         </div>
 <div className="grid lg:grid-cols-5">
 <div className="title lg:col-span-2 lg:text-end">
-    <h2 className='text-[20px] block'> Bachelor's degree </h2>
+    <h2 className='text-[20px] block'> Bachelor&#39;s degree </h2>
     <h2 className='text-[10px]'>2018-2022</h2>
 </div>
 <div className="dot lg:col-span-1 hidden lg:block text-center relative">
@@ -37,7 +37,7 @@ Computer science
 </div>
 <div className="grid lg:grid-cols-5">
 <div className="title lg:col-span-2 lg:text-end">
-    <h2 className='text-[20px] block'>Master's degree</h2>
+    <h2 className='text-[20px] block'>Master&#39;s degree</h2>
     <h2 className='text-[10px]'>2022-2024</h2>
 </div>
 <div className="dot lg:col-span-1 hidden lg:block text-center relative">
