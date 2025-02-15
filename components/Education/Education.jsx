@@ -52,7 +52,7 @@ Computer Engineering
 <div className="grid lg:grid-cols-5">
 <div className="title lg:col-span-2 lg:text-end">
     <h2 className='text-[20px] block'>Compar Academy</h2>
-    <h2 className='text-[10px]'>2023-2024</h2>
+    <h2 className='text-[10px]'>2022-2023</h2>
 </div>
 <div className="dot lg:col-span-1 hidden lg:block text-center relative">
 <div className='big'>
